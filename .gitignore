@@ -34,3 +34,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Sample and Test Files
+CardGameCourse20[123456789].zip
+CardGameCourse21[1234567890].zip
+Slides.zip
+Sprites.zip
