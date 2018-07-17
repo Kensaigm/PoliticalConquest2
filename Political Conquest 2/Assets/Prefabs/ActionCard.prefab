@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 4389039902841518}
   - component: {fileID: 65903997743443868}
   - component: {fileID: 114005992682214736}
+  - component: {fileID: 114875400392719484}
   m_Layer: 0
   m_Name: ActionCard
   m_TagString: Untagged
@@ -868,6 +869,31 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114875400392719484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570974205358880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdf1616c3cd763946ace32300f15d73f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardAsset: {fileID: 0}
+  PreviewManager: {fileID: 0}
+  NameText: {fileID: 114471510184740732}
+  ManaCostText: {fileID: 114144807398562474}
+  DescriptionText: {fileID: 114918386623742130}
+  HealthText: {fileID: 0}
+  AttackText: {fileID: 0}
+  CardTopRibbonImage: {fileID: 114162640181784940}
+  CardLowRibbonImage: {fileID: 114359128901095568}
+  CardGraphicImage: {fileID: 114286914289213474}
+  CardBodyImage: {fileID: 114317748711401684}
+  CardFaceFrameImage: {fileID: 114739557113147210}
+  CardFaceGlowImage: {fileID: 0}
+  CardBackGlowImage: {fileID: 0}
 --- !u!114 &114918386623742130
 MonoBehaviour:
   m_ObjectHideFlags: 1
