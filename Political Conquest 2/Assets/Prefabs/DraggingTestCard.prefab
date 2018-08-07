@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 224033186439017000}
   - component: {fileID: 222209828048879816}
   - component: {fileID: 114527233131115492}
+  - component: {fileID: 114790308266044476}
   m_Layer: 5
   m_Name: Frame
   m_TagString: Untagged
@@ -491,7 +492,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1203010381740462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: -0.23889875, y: 1.3182945, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224158356994003586}
@@ -1153,6 +1154,18 @@ MonoBehaviour:
   CardBack: {fileID: 224216794385309736}
   targetFacePoint: {fileID: 4496091928043034}
   col: {fileID: 65555086286103242}
+--- !u!114 &114790308266044476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393299112563592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59769f6f19299445bf47e4748735b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UsePointerDisplacement: 1
 --- !u!114 &114881076444674024
 MonoBehaviour:
   m_ObjectHideFlags: 1
